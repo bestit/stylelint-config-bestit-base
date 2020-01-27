@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-config-bestit-base",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "main": "index.js",
+  "author": "Sebastian Langer <sebastian.langer@bestit.de>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bestit/stylelint-config-bestit-base.git"
+  },
+  "peerDependencies": {
+    "stylelint": "~13.0.0"
+  }
+}

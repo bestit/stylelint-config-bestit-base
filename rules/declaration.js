@@ -1,0 +1,16 @@
+module.exports = {
+    'keyframe-declaration-no-important': true,
+    'declaration-block-no-duplicate-properties': true,
+    'declaration-block-no-shorthand-property-overrides': true,
+    'declaration-block-no-redundant-longhand-properties': true,
+    'declaration-no-important': true,
+    'declaration-block-single-line-max-declarations': 1,
+    'declaration-bang-space-after': 'never',
+    'declaration-bang-space-before': 'always',
+    'declaration-colon-newline-after': 'always-multi-line',
+    'declaration-colon-space-after': 'always-single-line',
+    'declaration-colon-space-before': 'never',
+    'declaration-block-semicolon-newline-after': 'always',
+    'declaration-block-semicolon-space-before': 'never',
+    'declaration-block-trailing-semicolon': 'always',
+};
