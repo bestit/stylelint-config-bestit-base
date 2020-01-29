@@ -3,7 +3,8 @@ module.exports = {
         'always',
         {
             except: ['after-same-name', 'first-nested'],
-            ignore: ['after-comment']
+            ignore: ['after-comment'],
+            ignoreAtRules: ['import']
         }
     ],
     'at-rule-name-case': 'lower',

@@ -1,7 +1,7 @@
 module.exports = {
-    'no-descending-specificity': [true, {
+    /*'no-descending-specificity': [true, {
         severity: 'warning'
-    }],
+    }],*/
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
     'no-empty-source': true,

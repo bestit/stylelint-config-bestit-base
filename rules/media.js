@@ -7,7 +7,7 @@ module.exports = {
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
     'media-query-list-comma-newline-after': 'always',
-    'media-query-list-comma-newline-before': 'never-multiline',
+    'media-query-list-comma-newline-before': 'never-multi-line',
     'media-query-list-comma-space-after': 'never',
     'media-query-list-comma-space-before': 'never',
 };

@@ -4,6 +4,6 @@ module.exports = {
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always',
     'block-opening-brace-newline-after': 'always',
-    'block-opening-brace-newline-before': 'never-multi-line',
+    'block-opening-brace-newline-before': 'never-single-line',
     'block-opening-brace-space-before': 'always',
 };
