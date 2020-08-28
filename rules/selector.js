@@ -7,7 +7,7 @@ module.exports = {
     'selector-class-pattern': [
         // Allows lowercase, numbers, dash, underscore, js--modal, js--fancy-select
         // Disallows all selectors starting with js-
-        '(^(?!js-)([a-z0-9]|-|__)*|js--modal|js--fancy-select|js--fancy-select-text)$',
+        '(^(?!js-)([a-z0-9]|-|__)*|js--modal|js--fancy-select|js--fancy-select-text|js--tab-menu|js--is--dropdown-active)$',
         {
             resolveNestedSelectors: true
         }
