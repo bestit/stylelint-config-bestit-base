@@ -7,7 +7,26 @@ module.exports = {
     'selector-class-pattern': [
         // Allows lowercase, numbers, dash, underscore, js--modal, js--fancy-select
         // Disallows all selectors starting with js-
-        '(^(?!js-)([a-z0-9]|-|__)*|js--modal|js--fancy-select|js--fancy-select-text|js--tab-menu|js--is--dropdown-active)$',
+        '(^(?!js-)([a-z0-9]|-|__)*|' +
+        'js--modal|' +
+        'js--fancy-select|' +
+        'js--fancy-select-text|' +
+        'js--tab-menu|' +
+        'js--is--dropdown-active|' +
+        'js--menu-scroller--arrow|' +
+        'js--load-more|' +
+        'js--load-previous|' +
+        'js--img-zoom--lens|' +
+        'js--img-zoom--flyout|' +
+        'js--collapse-target|' +
+        'js--image-gallery' +
+        'js--loading-indicator' +
+        'js--menu-scroller' +
+        'js--menu-scroller-.*' +
+        'js--off-canvas-button' +
+        'js--overlay' +
+        'js--loading' +
+        ')$',
         {
             resolveNestedSelectors: true
         }
