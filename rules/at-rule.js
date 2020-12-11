@@ -4,7 +4,7 @@ module.exports = {
         {
             except: ['after-same-name', 'first-nested'],
             ignore: ['after-comment'],
-            ignoreAtRules: ['import', 'font-face']
+            ignoreAtRules: ['import', 'font-face', 'include', 'mixin', 'use', 'forward', 'function', 'extend', 'at-root']
         }
     ],
     'at-rule-name-case': 'lower',
