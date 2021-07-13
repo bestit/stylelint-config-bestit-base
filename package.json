@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-bestit-base",
+  "name": "@best-it/stylelint-config-base",
   "version": "1.1.0",
   "description": "",
   "keywords": [
